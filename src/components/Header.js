@@ -2,7 +2,7 @@ const Header = () => {
  return(
     <nav className="navbar navbar-expand-lg navbar-light bg-light ">
     <div className="container">
-      <a className="navbar-brand" href="">
+      <a className="navbar-brand" href="/">
         <img src="/images/idea.png" alt="" />
       </a>
       <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive"
@@ -12,19 +12,19 @@ const Header = () => {
       <div className="collapse navbar-collapse" id="navbarResponsive">
         <ul className="navbar-nav ml-auto">
           <li className="nav-item active">
-            <a className="nav-link" href="">Dashboard</a>
+            <a className="nav-link" href="/dashboard">Dashboard</a>
           </li>
           <li className="nav-item active">
-            <a className="nav-link" href="">Create</a>
+            <a className="nav-link" href="/create">Create</a>
           </li>
           <li className="nav-item">
-            <a className="nav-link" href="">Logout</a>
+            <a className="nav-link" href="/logout">Logout</a>
           </li>
           <li className="nav-item">
-            <a className="nav-link" href="">Login</a>
+            <a className="nav-link" href="/login">Login</a>
           </li>
           <li className="nav-item">
-            <a className="nav-link" href="">Register</a>
+            <a className="nav-link" href="/register">Register</a>
           </li>
         </ul>
       </div>
