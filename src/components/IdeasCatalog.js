@@ -1,11 +1,11 @@
 import { useState, useEffect } from 'react';
 import Idea from './Idea';
-import * as Service from "./services/IdeasService"
+import * as IdeasService from "./services/IdeasService"
 
 const IdeasCatalog = () => {
   const [ideas, setIdea] = useState([]);
   useEffect(() => {
-      Service.getAll()
+    IdeasService.getAll()
       .then( result => setIdea(result));
   });
 
